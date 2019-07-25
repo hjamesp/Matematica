@@ -1,0 +1,13 @@
+public class Aplicacao {
+
+		public static void main(String[] args) {
+			
+			Matematica m = new Matematica();
+			
+			int soma = m.somar(10,  20, 5);
+			System.out.println(soma);
+			
+			double soma2 = m.somar(10.0,  2.0);
+			System.out.println(soma2);
+		}
+}
